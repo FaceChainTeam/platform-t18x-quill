@@ -161,6 +161,11 @@
 		};
 	};
 
+        cluster_clk_priv@e090000 {
+                compatible = "nvidia,t18x-cluster-clk-priv";
+                status = "disabled";
+        };
+
         mttcan@c310000 {
                 status = "okay";
                 gpio_can_stb = <&tegra_aon_gpio TEGRA_AON_GPIO(AA, 0) GPIO_ACTIVE_HIGH>;
