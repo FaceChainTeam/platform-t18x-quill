@@ -41,4 +41,7 @@
 			};
 		};
 	};
+	plugin-manager {
+		/delete-node/ fragment-e3326@0;
+	};
 };
